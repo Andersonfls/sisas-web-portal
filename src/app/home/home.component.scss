@@ -1,0 +1,35 @@
+.singleNews {
+  margin-bottom: 15px;
+  img {
+    height: 200px;
+  }
+  mat-card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .cardbody {
+    height: 100px;
+    overflow-y: auto;
+    margin: 0 -15px;
+    padding: 10px;
+  }
+}
+.homebtn{
+  margin:40px 0;
+}
+
+#conteudo h2.titulo-home-preto, .conteudo h2.titulo-home-preto {
+  font-family: "Raleway-Black";
+  font-size: 36px;
+  line-height: 1.4em;
+  margin: 20px 0 30px -10px;
+  color: #333333;
+  padding: 10px;
+  letter-spacing: -0.8px;
+}
+
+.auto-grid {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
