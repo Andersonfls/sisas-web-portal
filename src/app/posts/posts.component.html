@@ -1,20 +1,3 @@
-<div class="container margin-top" fxLayout="wrap row" fxLayout.xs="column" fxLayoutGap="1%" fxLayoutAlign="center">
-  <mat-card class="filter">
-    <form #filternewsForm="ngForm">
-      <mat-form-field>
-        <mat-select placeholder="News Source" [(ngModel)]='filterSource' name="source" required>
-          <mat-option *ngFor="let source of newsSources.sources" [value]="source.id">
-            {{source.name}} - {{ source.language }}
-          </mat-option>
-        </mat-select>
-      </mat-form-field>
-      <button mat-raised-button color="primary" (click)='filterNews(filterSource)' [disabled]="!filternewsForm.form.valid">Filter News to
-        <span style="text-transform: capitalize; ">{{filterSource}}</span>
-      </button>
-
-    </form>
-  </mat-card>
-</div>
 
 <div class="loader" *ngIf="!((news.articles)?.length > 0)">
   <mat-spinner></mat-spinner>
@@ -32,7 +15,7 @@
       </div>
 
       <mat-card-actions align="end">
-        <a href="{{post.url}}" target="_balnk" mat-raised-button color="accent">Read More</a>
+        <a href="{{post.url}}" target="_balnk" mat-raised-button style="background-color: #0e4775 !important;">Read More</a>
       </mat-card-actions>
     </mat-card>
 

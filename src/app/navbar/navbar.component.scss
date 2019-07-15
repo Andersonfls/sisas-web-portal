@@ -4,3 +4,31 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+
+.logo-config {
+  max-height: 90px;
+  max-width: 258px;
+  margin-left: 50px;
+}
+
+.linha-topo {
+  background-color: #0e4775;
+  height: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5px;
+}
+
+.navbar-config {
+  background-color: #0e4775 !important;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5px;
+}
+
+.cor-text-menu {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
