@@ -25,6 +25,7 @@ import {
   MatButtonModule,
   MatSlideToggleModule
 } from '@angular/material';
+import {AngularFontAwesomeModule} from 'angular-font-awesome';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import {
     ReactiveFormsModule,
     HttpModule,
     NgxHmCarouselModule,
+    AngularFontAwesomeModule,
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [ThemeService, NewsService],

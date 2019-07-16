@@ -1,19 +1,18 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 import { NewsService } from '../services/news.service';
 
 @Component({
-  selector: "app-posts",
-  templateUrl: "./posts.component.html",
-  styleUrls: ["./posts.component.scss"],
-  providers:[NewsService]
+  selector: 'app-posts',
+  templateUrl: './posts.component.html',
+  styleUrls: ['./posts.component.scss'],
+  providers: [NewsService]
 })
 export class PostsComponent implements OnInit {
-  news= {articles:[]};
-  newsSources= {sources:[]};
-  filterSource='google-news';
+  news = {articles: []};
+  newsSources = {sources: []};
 
 
-  constructor(private newsService: NewsService){}
+  constructor(private newsService: NewsService) {}
 
   ngOnInit() {
     this.newsService.getTopHeadLines()

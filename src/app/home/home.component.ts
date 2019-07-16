@@ -5,14 +5,14 @@ import { NewsService } from '../services/news.service';
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
-  providers:[NewsService]
+  providers:[ NewsService]
 
 })
 export class HomeComponent implements OnInit {
   news= {articles:[]};
 
 
-  constructor(private newsService: NewsService){}
+  constructor(private newsService: NewsService) {}
 
   ngOnInit() {
     this.newsService.getTopHeadLines()

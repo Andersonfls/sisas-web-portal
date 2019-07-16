@@ -17,13 +17,17 @@
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5px;
+  border-radius: 4px;
 }
 
 .navbar-config {
   background-color: #0e4775 !important;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 5px;
+  margin-bottom: 1.1%;
+  box-shadow: #ccc 3px 3px 3px;
+  border-radius: 4px;
+  height: 3.2em;
 }
 
 .cor-text-menu {
@@ -31,4 +35,51 @@
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
+  margin-right: 1%;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #00523d;
+}
+
+.navbar-form {
+  background: #ddd;
+  border-collapse: collapse;
+  margin-right: 20px !important;
+  margin-left: 0px !important;
+  padding: 2px;
+  width: auto;
+  border: 0;
+  box-shadow: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  float: right !important;
+}
+
+.navbar-form button {
+  margin: 0px;
+  padding: 5px 10px;
+  background: #888;
+  border: 0;
+}
+
+.navbar-form input {
+  display: inline-block;
+  border: 0;
+  background: transparent;
+  padding: 0 4px;
+  margin: 0 5px;
+}
+
+input, button, select, textarea {
+  font-family: Open Sans;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.btn-search {
+  margin: 0px;
+  padding: 5px 10px;
+  background: #888;
+  border: 0;
 }

@@ -3,6 +3,10 @@ $transition_time:.2s;
 .carousel {
   color:white;
   max-height: 350px;
+  border-radius: 4px;
+  box-shadow: #ccc 3px 3px 3px;
+  margin-left: 5%;
+  margin-right: 5%;
   .content {
     display: flex;
 
