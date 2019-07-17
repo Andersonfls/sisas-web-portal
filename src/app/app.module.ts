@@ -26,13 +26,17 @@ import {
   MatSlideToggleModule
 } from '@angular/material';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
+import { PublicacoesComponent } from './publicacoes/publicacoes.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PostsComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    PublicacoesComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
